@@ -32,6 +32,7 @@
         }
         .partners-logos {
             border-bottom: 1px solid #444c80;
+            direction: rtl;
             @media (max-width: $max-5) {
                 border: unset;
             }
