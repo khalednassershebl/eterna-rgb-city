@@ -634,15 +634,15 @@
                     width: 100%;
                     transition: all 0.3s ease-in-out;
                     text-decoration: none;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
+                    &:hover {
+                        background: #01094d;
+                        color: $mainColor;
+                    }
                     .link-info {
                         white-space: nowrap;
                         border-radius: 50px;
                         margin: 0;
                         transition: all 0.3s ease-in-out 0s;
-                        display: inline-flex;
                         padding: 0 20px 0 0;
                         a {
                             text-decoration: none;
@@ -652,6 +652,7 @@
                             font-weight: 500;
                             transition: all 0.3s ease-in-out 0s;
                             padding: 17px 0 17px 15px;
+                            display: block;
                         }
                     }
                     .li-link-icon {
@@ -686,8 +687,8 @@
                 }
             }
             .li-active {
-                background-color: #f4f7ff;
-                color: #000;
+                background-color: #010739;
+                color: #ffffff;
                 a {
                     svg {
                         fill: $mainColor;
@@ -713,7 +714,7 @@
                     }
                 }
                 &:hover {
-                    background: #f4f7ff;
+                    background: #01094d;
                     color: $mainColor;
                 }
             }

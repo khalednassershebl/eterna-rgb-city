@@ -851,16 +851,16 @@ p.text a {
   width: 100%;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+}
+.big-nav .nav-links ul li .li-link:hover {
+  background: #01094d;
+  color: #000024;
 }
 .big-nav .nav-links ul li .li-link .link-info {
   white-space: nowrap;
   border-radius: 50px;
   margin: 0;
   transition: all 0.3s ease-in-out 0s;
-  display: inline-flex;
   padding: 0 20px 0 0;
 }
 .big-nav .nav-links ul li .li-link .link-info a {
@@ -871,6 +871,7 @@ p.text a {
   font-weight: 500;
   transition: all 0.3s ease-in-out 0s;
   padding: 17px 0 17px 15px;
+  display: block;
 }
 .big-nav .nav-links ul li .li-link .li-link-icon {
   width: 50px;
@@ -904,8 +905,8 @@ p.text a {
   }
 }
 .big-nav .nav-links ul .li-active {
-  background-color: #f4f7ff;
-  color: #000;
+  background-color: #010739;
+  color: #ffffff;
 }
 .big-nav .nav-links ul .li-active a svg {
   fill: #000024;
@@ -928,7 +929,7 @@ p.text a {
   color: #000024;
 }
 .big-nav .nav-links ul .li-active:hover {
-  background: #f4f7ff;
+  background: #01094d;
   color: #000024;
 }
 .big-nav::-webkit-scrollbar {
