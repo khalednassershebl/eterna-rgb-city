@@ -2317,7 +2317,7 @@ footer .footer-container .copyrights ul li a {
   font-weight: 600;
   letter-spacing: 1px;
   border: 1px solid #f4f7ff;
-  margin: 10px 0 0 auto;
+  margin: 10px auto 0 0;
 }
 .about-page .why .why-info .why-part .why-text .header-btn svg {
   height: 16px;
@@ -2365,10 +2365,10 @@ footer .footer-container .copyrights ul li a {
 }
 .about-page .why .why-vision {
   margin-top: 0;
-  border-right: 1px solid #444c80;
+  border-left: 1px solid #444c80;
   border-bottom: unset;
   border-top: unset;
-  border-left: unset;
+  padding-left: 50px;
 }
 @media (max-width: 991.98px) {
   .about-page .why .why-vision {
@@ -2378,7 +2378,7 @@ footer .footer-container .copyrights ul li a {
 .about-page .why .why-vision .why-vision-part {
   padding: 40px 100px 40px 40px;
   border-left: unset;
-  margin-right: 8px;
+  margin-left: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2395,7 +2395,7 @@ footer .footer-container .copyrights ul li a {
   height: 75px;
   width: 75px;
   margin-bottom: 0;
-  margin-left: 15px;
+  margin-right: 15px;
 }
 .about-page .why .why-vision .why-vision-part h3 {
   font-size: 1.3rem;
